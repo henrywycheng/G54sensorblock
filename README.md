@@ -1,6 +1,6 @@
 # selfblock
 
-自製的 micro:bit G54 Sensors 積木
+自製的 micro:bit G54 Sensor 積木
 
 ## License
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-selfblock=github.com/henrywycheng/pxt-G43sensorblock
+selfblock=github.com/henrywycheng/pxt-G54sensorblock
 ```
