@@ -1,7 +1,7 @@
 {
     "name": "selfblock",
     "version": "0.0.1",
-    "description": "這是自製的 micro:bit Sensors 積木",
+    "description": "自製的 micro:bit G54 Sensor 積木",
     "license": "MIT",
     "dependencies": {
         "core": "*"
