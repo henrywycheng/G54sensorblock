@@ -1,6 +1,6 @@
-﻿﻿{
+{
 
-    "selfblock|block": "自訂 sensor",
+    "selfblock|block": "自訂 G54 sensor",
 
     "selfblock.G54enable|block": "啟動 G54",
 
@@ -14,15 +14,6 @@
 
     "selfblock.G54getGreen|block": "讀取 G54 Green data",
 
-    "selfblock.G54getBlue|block": "讀取 G54 Blue data"
-,
-    "selfblock.CJMCUTHIDno|block": "讀取 CJMCU8118 TH IDno",
-    "selfblock.CJMCUTHConfig|block": "讀取 CJMCU8118 TH Config",
-    "selfblock.CJMCUTHgetTemp|block": "讀取 CJMCU8118 TH get Temperature",
-    "selfblock.CJMCUTHgetHumid|block": "讀取 CJMCU8118 TH get Humidity",
-    "selfblock.CJMCUGasIDno|block": "讀取 CJMCU8118 Gas IDno",
-    "selfblock.CJMCUGasAppStart|block": "啟動 CJMCU8118 Gas App Start",
-    "selfblock.CJMCUGasStatus|block": "讀取 CJMCU8118 Gas Status",
-    "selfblock.CJMCUGasErrID|block": "讀取 CJMCU8118 Gas ErrorID",
-    "selfblock.CJMCUGasDrvMode|block": "啟動 CJMCU8118 Gas DrvMode1",
+    "selfblock.G54getBlue|block": "讀取 G54 Blue data",
+
 }
