@@ -40,7 +40,7 @@ namespace selfblock {
     }
 
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x14-15 command 0x94-95 return byte */
-    //% blockId="G54getClear" block="G54 get Clear data"
+    //% blockId="G54getClear" block="G54 get Clear Light data"
     //% blockGap=2 weight=86
     export function G54getClear(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
