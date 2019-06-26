@@ -1,6 +1,6 @@
-# selfblock
+# TCS34725 RGB Sensor
 
-自製的 micro:bit G54 Sensor 積木
+自製的 micro:bit TCS34725 RGB Sensor 積木
 
 ## License
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-selfblock=github.com/henrywycheng/pxt-G54sensorblock
+selfblock=github.com/henrywycheng/pxt-TCS34725block
 ```
