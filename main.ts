@@ -1,4 +1,4 @@
-//% weight=0 color=#3CB371 icon="\uf1b3" block="TCS34725"
+//% weight=0 color=#3CB371 icon="\uf1b3" block="TCS34725 RGB sensor"
 
 namespace TCS34725 {
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x00 command 0x80 return byte */
