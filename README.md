@@ -1,4 +1,4 @@
-# TCS34725 RGB Sensor
+# TCS34725
 
 自製的 micro:bit TCS34725 RGB Sensor 積木
 
