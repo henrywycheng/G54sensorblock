@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-selfblock=github.com/henrywycheng/pxt-TCS34725block
+TCS34725block=github.com/henrywycheng/pxt-TCS34725block
 ```
