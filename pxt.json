@@ -1,5 +1,5 @@
 {
-    "name": "TCS34725 RGB",
+    "name": "TCS34725",
     "version": "0.0.1",
     "description": "自製的 micro:bit TCS34725 RGB Sensor 積木",
     "license": "MIT",
