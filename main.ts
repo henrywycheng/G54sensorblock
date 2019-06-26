@@ -39,6 +39,10 @@ namespace selfblock {
         return Status
     }
 
+    /* Separator */
+    //% blockId="separator" block="reading data"
+    //% blockGap=2 weight=86
+
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x14-15 command 0x94-95 return byte */
     //% blockId="G54getClear" block="G54 get Clear Light data"
     //% blockGap=2 weight=86
