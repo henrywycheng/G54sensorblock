@@ -1,7 +1,7 @@
 {
-    "name": "selfblock",
+    "name": "TCS34725 RGB",
     "version": "0.0.1",
-    "description": "自製的 micro:bit G54 Sensor 積木",
+    "description": "自製的 micro:bit TCS34725 RGB Sensor 積木",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/selfblock-strings.json"
+        "_locales/zh/TCS34725block-strings.json"
     ],
     "public": true
 }
