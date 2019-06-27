@@ -1,6 +1,31 @@
 //% weight=0 color=#3CB371 icon="\uf1b3" block="TCS34725 RGB"
 
 namespace TCS34725RGB {
+
+    /* G54 TCS34725 RGB sensor addr 0x29 register 0x00 command 0x80 return byte */
+    //% blockId="RGBStart" block="Sensor Start"
+    //% blockGap=2 weight=89
+    export function RGBStart(): boolean {
+	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
+	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
+	basic.pause(200)
+	pins.i2cWriteNumber(41,146,NumberFormat.UInt8LE,false)
+	basic.pause(200)
+	if (68 != pins.i2cReadNumber(41, NumberFormat.UInt8LE, false)) {
+		return false
+	}
+	pins.i2cWriteNumber(41,128,NumberFormat.UInt8LE,false)
+	basic.pause(200)
+	pins.i2cWriteNumber(41,3,NumberFormat.UInt8LE,false)
+	basic.pause(200)
+	pins.i2cWriteNumber(41,147,NumberFormat.UInt8LE,false)
+	basic.pause(200)
+	if (pins.i2cReadNumber(41, NumberFormat.UInt8LE, false) % 2 != 1 ) {
+		return false
+	}
+	return true
+    }
+	
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x00 command 0x80 return byte */
     //% blockId="G54enable" block="G54 Enable"
     //% blockGap=2 weight=89
