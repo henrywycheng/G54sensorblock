@@ -11,13 +11,13 @@ namespace TCS34725RGB {
 	basic.pause(200)
 	pins.i2cWriteNumber(41,146,NumberFormat.UInt8LE,false)
 	basic.pause(200)
-	if (68 != pins.i2cReadNumber(41, NumberFormat.UInt8LE, false)) {
+	if ( pins.i2cReadNumber(41, NumberFormat.UInt8LE, false) != 68 ) {
 		basic.pause(200)
 		pins.i2cWriteNumber(41,146,NumberFormat.UInt8LE,false)
 		basic.pause(200)
 		Let data = pins.i2cReadNumber(41, NumberFormat.UInt8LE, false)
 		basic.pause(200)
-		if (68 != data) {
+		if (data != 68) {
 			return false
 		}
 	}
