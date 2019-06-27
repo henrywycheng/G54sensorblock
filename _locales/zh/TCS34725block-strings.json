@@ -2,6 +2,8 @@
 
     "TCS34725RGB|block": "自訂 G54 sensor",
 
+    "TCS34725RGB.RGBStart": "啟動 sensor",
+
     "TCS34725RGB.G54enable|block": "啟動 G54",
 
     "TCS34725RGB.G54getIDno|block": "讀取 G54 IDno",
