@@ -1,4 +1,4 @@
-//% weight=0 color=#3CB371 icon="\uf1b3" block="TCS34725 RGB"
+//% weight=0 color=#3CB371 icon="\uf1b3" block="TCS34725RGB"
 
 namespace TCS34725RGB {
 
