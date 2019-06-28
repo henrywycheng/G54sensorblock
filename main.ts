@@ -77,9 +77,9 @@ namespace TCS34725RGB {
     }
 
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x14-15 command 0x94-95 return byte */
-    //% blockId="G54getClear" block="G54 get Clear Light data"
+    //% blockId="TCS34725getClear" block="TCS34725 get Clear Light"
     //% blockGap=2 weight=86
-    export function G54getClear(): number {
+    export function TCS34725getClear(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
 	basic.pause(200)
@@ -90,9 +90,9 @@ namespace TCS34725RGB {
     }
 
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x16-17 command 0x96-97 return byte */
-    //% blockId="G54getRed" block="G54 get Red data"
+    //% blockId="TCS34725getRed" block="TCS34725 get Red"
     //% blockGap=2 weight=85
-    export function G54getRed(): number {
+    export function TCS34725getRed(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
 	basic.pause(200)
@@ -103,9 +103,9 @@ namespace TCS34725RGB {
     }
 
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x18-19 command 0x98-99 return byte */
-    //% blockId="G54getGreen" block="G54 get Green data"
+    //% blockId="TCS34725getGreen" block="TCS34725 get Green"
     //% blockGap=2 weight=84
-    export function G54getGreen(): number {
+    export function TCS34725getGreen(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
 	basic.pause(200)
@@ -116,9 +116,9 @@ namespace TCS34725RGB {
     }
 
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x1A-1B command 0x9A-9B return byte */
-    //% blockId="G54getBlue" block="G54 get Blue data"
+    //% blockId="TCS34725getBlue" block="TCS34725 get Blue"
     //% blockGap=2 weight=83
-    export function G54getBlue(): number {
+    export function TCS34725getBlue(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
 	basic.pause(200)
