@@ -17,10 +17,8 @@ namespace TCS34725RGB {
 	}
 
 	basic.pause(200)
-	pins.i2cWriteNumber(41,128,NumberFormat.UInt8LE,false)
+	pins.i2cWriteNumber(41,32771,NumberFormat.UInt16BE,false)
 	basic.pause(200)
-	pins.i2cWriteNumber(41,3,NumberFormat.UInt8LE,false)
-
 	return true
     }
 
