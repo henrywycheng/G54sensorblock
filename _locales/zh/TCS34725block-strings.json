@@ -4,12 +4,6 @@
 
     "TCS34725RGB.TCS34725Start|block": "啟動 Sensor",
     
-    "TCS34725RGB.G54enable|block": "啟動 G54",
-
-    "TCS34725RGB.G54getIDno|block": "讀取 G54 IDno",
-
-    "TCS34725RGB.G54getStatus|block": "讀取 G54 Status",
-
     "TCS34725RGB.TCS34725getClear|block": "讀取 TCS34725 Clear Light",
 
     "TCS34725RGB.TCS34725getRed|block": "讀取 TCS34725 Red",
