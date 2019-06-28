@@ -39,6 +39,7 @@ namespace TCS34725RGB {
     }
 
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x00 command 0x80 return byte */
+/*
     //% blockId="G54enable" block="G54 Enable"
     //% blockGap=2 weight=89
     export function G54enable() {
@@ -49,8 +50,9 @@ namespace TCS34725RGB {
 	basic.pause(200)
 	pins.i2cWriteNumber(41,3,NumberFormat.UInt8LE,false)
     }
-
+*/
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x12 command 0x92 return byte */
+/*
     //% blockId="G54getIDno" block="G54 get IDno"
     //% blockGap=2 weight=88
     export function G54getIDno(): number {
@@ -62,8 +64,9 @@ namespace TCS34725RGB {
 	let IDno = pins.i2cReadNumber(41, NumberFormat.UInt8LE, false)
         return IDno
     }
-
+*/
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x13 command 0x93 return byte */
+/*
     //% blockId="G54getStatus" block="G54 get Status"
     //% blockGap=2 weight=87
     export function G54getStatus(): number {
@@ -75,7 +78,7 @@ namespace TCS34725RGB {
 	let Status = pins.i2cReadNumber(41, NumberFormat.UInt8LE, false)
         return Status
     }
-
+*/
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x14-15 command 0x94-95 return byte */
     //% blockId="TCS34725getClear" block="TCS34725 get Clear Light"
     //% blockGap=2 weight=86
