@@ -15,7 +15,12 @@ namespace TCS34725RGB {
 	if (pins.i2cReadNumber(41, NumberFormat.UInt8LE, false) !=68) {
 		return false
 	}
+
 	basic.pause(200)
+	pins.i2cWriteNumber(41,128,NumberFormat.UInt8LE,false)
+	basic.pause(200)
+	pins.i2cWriteNumber(41,3,NumberFormat.UInt8LE,false)
+
 	return true
     }
 
