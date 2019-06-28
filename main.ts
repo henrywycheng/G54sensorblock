@@ -2,6 +2,16 @@
 
 namespace TCS34725RGB {
 
+    /* G54 TCS34725 RGBC color sensor addr 0x29 return boolean */
+    //% blockId="SensorStart" block="Sensor Start"
+    //% blockGap=2 weight=90
+    export function SensorStart(): boolean {
+	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
+	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
+	basic.pause(200)
+	return true
+    }
+
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x00 command 0x80 return byte */
     //% blockId="G54enable" block="G54 Enable"
     //% blockGap=2 weight=89
