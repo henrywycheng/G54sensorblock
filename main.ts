@@ -15,7 +15,6 @@ namespace TCS34725RGB {
 	if (pins.i2cReadNumber(41, NumberFormat.UInt8LE, false) !=68) {
 		return false
 	}
-
 	basic.pause(200)
 	pins.i2cWriteNumber(41,32771,NumberFormat.UInt16BE,false)
 	basic.pause(200)
@@ -24,14 +23,12 @@ namespace TCS34725RGB {
 	if (pins.i2cReadNumber(41, NumberFormat.UInt8LE, false) !=3) {
 		return false
 	}
-
 	basic.pause(200)
 	pins.i2cWriteNumber(41,147,NumberFormat.UInt8LE,false)
 	basic.pause(200)
 	if (pins.i2cReadNumber(41, NumberFormat.UInt8LE, false) !=17) {
 		return false
 	}
-
 	return true
     }
 
