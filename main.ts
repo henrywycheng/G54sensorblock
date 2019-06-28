@@ -9,7 +9,13 @@ namespace TCS34725RGB {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
 	basic.pause(200)
-	return true
+
+	pins.i2cWriteNumber(41,146,NumberFormat.UInt8LE,false)
+	basic.pause(200)
+	let IDno = pins.i2cReadNumber(41, NumberFormat.UInt8LE, false)
+	basic.pause(200)
+	if (IDno != 68) return false
+	else return true
     }
 
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x00 command 0x80 return byte */
